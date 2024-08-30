@@ -1,0 +1,19 @@
+.animated-box {
+    width: 50%;
+    height: 10%;
+    background-color: #773e0f;
+    position: relative;
+    animation: slideRight slideleft 10s infinite;
+}
+
+@keyframes slideRight slideleft {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
